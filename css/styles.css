@@ -180,10 +180,19 @@ padding-bottom: 24px;
   /* Section 1 hero */
 
   .hero{
-    background-color: var(--logo-dark);
-   
-    
     padding: 188px 0;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+    background-color: var(--logo-dark);
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero/hero-office.png)
+    
+    
     
   }
 
@@ -293,6 +302,12 @@ padding-bottom: 24px;
   /* --content-element (c section 2) -- */
   .content-element
 
+  .content-shadow{
+   box-shadow: rgba(46, 47, 66, 0.08);
+   Radius: 1px;
+   Offset: 0px, 2px;
+     } 
+    
   .company{
     background-color:  #F4F4FD
     }
