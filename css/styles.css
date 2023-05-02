@@ -463,10 +463,14 @@ border-radius: 50%;
     color: var(--text-footer);
     margin-top: 0; 
     margin-bottom: 0;
-    padding-bottom: 100px;
-
-    
+      
    
+  }
+
+  .footer-soc-media{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Portfolio */
