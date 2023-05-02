@@ -16,6 +16,7 @@ html{
   --text-footer:#F4F4FD;
   --border-card: #e7e9fc;
   --social-link-bkg:#4D5AE5;
+  --sociai-link-ftr:#31D0AA;
      }
 body{
   font-family: 'Roboto', sans-serif;
@@ -253,8 +254,33 @@ padding-bottom: 24px;
     }
 
   .descli{
+
     width: calc((100% - 72px) / 4);
   } 
+
+  .desc-section-icon{
+    width: 264px;
+    height: 112px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
+    background-color: var(--text-footer);
+  }
+
+  .desc-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+   
+  }
+
+
   .descrep{
     color: var(--logo-dark);
     font-weight: 500;
@@ -374,7 +400,7 @@ padding-bottom: 24px;
 .social-link{
 display: flex;
 justify-content: center;
-align-content: center;
+align-items: center;
 
 width: 40px;
 height: 40px;
@@ -385,6 +411,8 @@ border-radius: 50%;
 .social-icon{
  display: flex;
  justify-content: center;
+ align-items: center;
+ 
  
 
   fill: var(--text-footer);
@@ -436,7 +464,6 @@ border-radius: 50%;
 
   /* footer */
   
-   
   .footer-style{
     background-color: var(--logo-dark);
     height: 314px;
@@ -456,7 +483,8 @@ border-radius: 50%;
      }
 
   .footer-text{
-    font-family:'Raleway', sans-serif;
+    font-family:'Roboto';
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -468,11 +496,49 @@ border-radius: 50%;
   }
 
   .footer-soc-media{
-    display: inline-block;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 16px;
+    margin-bottom: 16;
+    
+    }
+  .footer-text-ft{
+    font-family:'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-footer);
+    padding-bottom: 14px; 
   }
+  .social-ft{
+   display: flex; 
+   gap: 16px;
+   
+    }
 
+  .social-team-ft{
+    width: 40px;
+    height: 40px;
+  }  
+  .social-link-ft{
+    background-color: var(--social-link-bkg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  .social-icon-ft{
+    fill: var(--text-footer);
+  }
+  .social-link-ft:hover,
+  .social-link-ft:focus{
+    background-color:var(--sociai-link-ftr) ;
+  }
   /* Portfolio */
 
 
