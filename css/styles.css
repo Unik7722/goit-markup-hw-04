@@ -454,7 +454,7 @@ border-radius: 50%;
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
-
+  color: var(--customers-item-link);
   border: 1px solid;
   border-color:var(--customers-item-link);
   border-radius: 4px;
@@ -465,30 +465,32 @@ border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: currentColor;
   fill: #8E8F99;
 
 }
 .customers-icon:hover,
 .customers-icon:focus{
-  fill: #404BBF;
+  fill: #404bbf;;
 }
 .customers-item-link:hover,
 .customers-item-link:focus{
-  fill: #404BBF; 
+  border-color: #404bbf; 
 }
 
 
   /* footer */
   
   .footer-style{
-    display: flex;
-    align-items: baseline;
-
     background-color: var(--logo-dark);
     height: 314px;
     padding: 100px 0;
-    
-      }
+          }
+  .footer-style-item{
+    display: flex;
+    align-items: baseline;
+  }
+
   .logo-footer-text{
     gap: 120px;
 
