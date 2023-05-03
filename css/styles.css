@@ -471,7 +471,7 @@ border-radius: 50%;
 }
 .customers-icon:hover,
 .customers-icon:focus{
-  fill: #404bbf;;
+  color: #404bbf;;
 }
 .customers-item-link:hover,
 .customers-item-link:focus{
